@@ -17,28 +17,28 @@ const Index = () => {
       description: "Stündliche Führungen zu jeder vollen Stunde",
       date: "Montag, 23.06.2025, 12 – 18 Uhr",
       location: "Meckenheimer Allee 171 (vor dem Tropenhaus)",
-      href: "https://www.studienstiftung.de/event-botanischer-garten"
+      href: "https://lets-meet.org/reg/8bc4061e5b45e8ba39"
     },
     {
       title: "Poetry- & Science-Slam",
       description: "",
       date: "Mittwoch, 25.06.2025 · 19 Uhr",
       location: "Hörsaal im alten anatomischen Institut (Nussallee 10)",
-      href: "https://www.studienstiftung.de/event-science-slam"
+      href: "https://lets-meet.org/reg/76937f5bd03010655b"
     },
     {
       title: "Vortrag Markus Gabriel",
       description: "",
       date: "Donnerstag, 26.06.2025, 19 Uhr",
       location: "Lipschitz-Saal, Endenicher Allee 60",
-      href: "https://www.studienstiftung.de/event-markus-gabriel"
+      href: "https://lets-meet.org/reg/b41d5251640d2a7818"
     },
     {
       title: "Sommerfest",
       description: "",
       date: "Freitag, 27.06.2025, 18 Uhr",
       location: "Wolfgang-Paul-Hörsaal (Kreuzbergweg 8)",
-      href: "https://www.studienstiftung.de/event-sommerfest"
+      href: "https://lets-meet.org/reg/2c091d3b22f9ecd4de"
     }
   ];
 
