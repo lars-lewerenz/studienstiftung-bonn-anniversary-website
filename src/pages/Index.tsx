@@ -22,7 +22,7 @@ const Index = () => {
     {
       title: "Poetry- & Science-Slam",
       description: "",
-      date: "Mittwoch, 25.06.2025 · 19 Uhr",
+      date: "Mittwoch, 25.06.2025, 19 Uhr",
       location: "Hörsaal im alten anatomischen Institut (Nussallee 10)",
       href: "https://lets-meet.org/reg/76937f5bd03010655b"
     },
