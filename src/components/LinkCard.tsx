@@ -23,7 +23,7 @@ const LinkCard: React.FC<LinkCardProps> = ({ title, description, href, date, loc
           <MapPin className="w-4 h-4 mr-2" />
           <span>{location}</span>
         </div>
-        {description && <p className="text-white/80">{description}</p>}
+        {description && <span className="text-white/80">{description}</span>}
         <div className="flex items-center text-white mt-2">
         <span className="text-sm">
           {href ? 'Zur Anmeldung' : 'Keine Anmeldung erforderlich'}
