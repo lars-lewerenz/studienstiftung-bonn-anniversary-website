@@ -3,18 +3,22 @@ import { ArrowRight, Calendar, MapPin } from 'lucide-react';
 
 interface LinkCardProps {
   title: string;
+  subtitle?: string;
   description?: string;
   href?: string;
   date: string;
   location: string;
 }
 
-const LinkCard: React.FC<LinkCardProps> = ({ title, description, href, date, location }) => {
+const LinkCard: React.FC<LinkCardProps> = ({ title, subtitle, description, href, date, location }) => {
   const content = (
       <div className="flex flex-col space-y-3">
         <h3 className="text-xl font-semibold text-white group-hover:translate-x-1 transition-transform duration-300">
           {title}
         </h3>
+        {subtitle && (
+          <div className="text-base text-white/70 font-normal -mt-2 mb-1">{subtitle}</div>
+        )}
         <div className="flex items-center text-white/80 text-sm">
           <Calendar className="w-4 h-4 mr-2" />
           <span>{date}</span>

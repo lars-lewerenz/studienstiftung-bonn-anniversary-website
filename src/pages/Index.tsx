@@ -6,13 +6,15 @@ const Index = () => {
   const links = [
     {
       title: "Sport & Studieninfo",
-      description: "",
+      subtitle: null,
+      description: "Sportlicher Auftakt mit Spikeball & Co. – dazu Infos zur Studienstiftung und Stipendienbewerbung für alle Interessierten",
       date: "Samstag, 21.06.2025, 13 – 17 Uhr",
       location: "Wiese am Poppelsdorfer Schloss (Clemens-August-Weg)",
       href: null
     },
     {
       title: "Führung und Zeichenkurs im Botanischen Garten",
+      subtitle: null,
       description: "Zu jeder vollen Stunde",
       date: "Montag, 23.06.2025, 12 – 18 Uhr",
       location: "Vor dem Tropenhaus (Meckenheimer Allee 171)",
@@ -20,21 +22,24 @@ const Index = () => {
     },
     {
       title: "Poetry- & Science-Slam-Abend",
-      description: "",
+      subtitle: null,
+      description: null,
       date: "Mittwoch, 25.06.2025, 19 Uhr",
       location: "Hörsaal im alten anatomischen Institut (Nussallee 10)",
       href: "https://lets-meet.org/reg/76937f5bd03010655b"
     },
     {
       title: "Vortrag von Philosoph Markus Gabriel",
-      description: "",
+      subtitle: null,
+      description: "Thema: „Wissen, Wahrheit und gesellschaftliche Verantwortung“",
       date: "Donnerstag, 26.06.2025, 19 Uhr",
       location: "Lipschitz-Saal im mathematischen Institut (Endenicher Allee 60)",
       href: "https://lets-meet.org/reg/b41d5251640d2a7818"
     },
     {
       title: "Sommerfest",
-      description: "",
+      subtitle: null,
+      description: null,
       date: "Freitag, 27.06.2025, 18 Uhr",
       location: "Wolfgang-Paul-Hörsaal (Kreuzbergweg 8)",
       href: "https://lets-meet.org/reg/2c091d3b22f9ecd4de"
@@ -87,6 +92,7 @@ const Index = () => {
                 <LinkCard
                   key={index}
                   title={link.title}
+                  subtitle={link.subtitle}
                   description={link.description}
                   href={link.href}
                   date={link.date}
