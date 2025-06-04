@@ -39,7 +39,7 @@ const Index = () => {
     {
       title: "Sommerfest",
       subtitle: null,
-      description: null,
+      description: "Mit Dr. Eckart von Hirschhausen und musikalischen Beiträgen sowie Buffet",
       date: "Freitag, 27.06.2025, 18 Uhr",
       location: "Wolfgang-Paul-Hörsaal (Kreuzbergweg 8)",
       href: "https://lets-meet.org/reg/2c091d3b22f9ecd4de"
